@@ -3,6 +3,11 @@
 /**
  * A plugin for Omeka that adds Google Analytics code to your page.
  *
+ * You will have to make sure you add the following code to the footer.php file
+ * of your theme
+ *
+ * 		<?php fire_plugin_hook('public_footer', array('view' => $this)); ?>
+ *
  * @package   Google Analytics
  * @author    Dave Widmer <dwidmer@bgsu.edu>
  */
